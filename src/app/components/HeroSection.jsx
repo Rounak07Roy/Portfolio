@@ -38,7 +38,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
           Heyy!!!!!
-          Am Rounak a frontend designer and developer. Currently am pursuing B.Tech from KIIT University . Till date I have designed a total of 3 websites , You can directly hire me for freelancing by just clicking on "Hire me" button 
+          Am Rounak a frontend designer and developer. Currently am pursuing B.Tech from KIIT University . Till date I have designed a total of 3 websites , You can directly hire me for freelancing by just clicking on &quot; Hire me &quot; button 
           </p>
           <div>
             <Link
@@ -66,14 +66,12 @@ const HeroSection = () => {
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
-            <Image
-              src="https://i.ibb.co/xCMdHmx/avatar-black.jpg"
-              alt="hero image"
-              className="absolute top-0 left-0 w-full h-full object-cover"
-              layout="fill"
-              objectFit="cover"
-              objectPosition="center center"
-            />
+          <Image
+        src="https://i.ibb.co/hx0z62W/avatar1-final.png"
+        alt="Your Image Alt Text"
+        layout="fill"
+        objectFit="cover"
+      />
           </div>
         </motion.div>
       </div>
