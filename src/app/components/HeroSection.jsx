@@ -17,7 +17,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 ">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
@@ -68,9 +68,11 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
           <Image
-        src="https://i.ibb.co/hx0z62W/avatar1-final.png"
+        src="https://i.ibb.co/nRbMp9w/Whats-App-Image-2023-12-09-at-07-21-47-477c1875.jpg"
         alt="Your Image Alt Text"
-        layout="fill"
+        width={500}
+        height={500}
+        layout="responsive"
         objectFit="cover"
       />
           </div>

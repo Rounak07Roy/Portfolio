@@ -63,9 +63,8 @@ const Navbar = () => {
         </div>
       </div>
       {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
-      {/* Circular shape with glow effect */}
-      <div className="absolute w-20 h-20 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-lg filter drop-shadow-xl opacity-70 top-[-10px] left-0"></div>
-      <div className="absolute w-20 h-20 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-lg filter drop-shadow-xl opacity-70 top-[-10px] right-0"></div>
+      <div className="absolute w-28 h-28 bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl filter drop-shadow-xl opacity-80 top-[-25px] left-0"></div>
+      <div className="absolute w-28 h-28 bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl filter drop-shadow-xl opacity-80 top-[-25px] right-0"></div>
     </nav>
   );
 };
