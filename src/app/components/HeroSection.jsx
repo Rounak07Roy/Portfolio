@@ -39,7 +39,7 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
           Heyy!!!!!
-          Am Rounak a frontend designer and developer. Currently am pursuing B.Tech from KIIT University . Till date I have designed a total of 3 websites , You can directly hire me for freelancing by just clicking on &quot; Hire me &quot; button 
+          Am Rounak a frontend Designer and Developer. Currently am pursuing B.Tech from KIIT University . Till date I have designed a total of 3 websites , You can directly hire me for freelancing by just clicking on &quot; Hire me &quot; button 
           </p>
           <div>
             <Link
