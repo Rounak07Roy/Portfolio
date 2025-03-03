@@ -38,8 +38,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Heyy!!!!!
-          Am Rounak a frontend Designer and Developer. Currently am pursuing B.Tech from KIIT University . Till date I have designed a total of 3 websites , You can directly hire me for freelancing by just clicking on &quot; Hire me &quot; button 
+          
+          Am Rounak currently working in Deloitte as a HR Transformation Team Member . You can directly hire me for freelancing by just clicking on &quot; Hire me &quot; button 
           </p>
           <div>
             <Link
@@ -51,7 +51,7 @@ const HeroSection = () => {
               </span>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1YoJLHj68KW0PNZLYL3jYOTN5ekwo10cj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1DcTHXgGA8Qf1fUkmwfgRMxXZF3a1xgDB/view"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-cyan-500 to-blue-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

@@ -1,28 +1,32 @@
-// import { NextResponse } from "next/server";
-// import { Resend } from "resend";
+import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
-// const resend = new Resend(process.env.RESEND_API_KEY);
-// const fromEmail = process.env.FROM_EMAIL;
+export async function POST(req) {
+  try {
+    const { email, subject, message } = await req.json();
 
-// export async function POST(req, res) {
-//   const { email, subject, message } = await req.json();
-//   console.log(email, subject, message);
-//   try {
-//     const data = await resend.emails.send({
-//       from: fromEmail,
-//       to: [fromEmail, email],
-//       subject: subject,
-//       react: (
-//         <>
-//           <h1>{subject}</h1>
-//           <p>Thank you for contacting us!</p>
-//           <p>New message submitted:</p>
-//           <p>{message}</p>
-//         </>
-//       ),
-//     });
-//     return NextResponse.json(data);
-//   } catch (error) {
-//     return NextResponse.json({ error });
-//   }
-// }
+    // Nodemailer Transporter (Update with your SMTP credentials)
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: "royyrounak10@gmail.com", // Update with your email
+        pass: "rpuu csfl defc mmtr", // Use an App Password if using Gmail
+      },
+    });
+
+    const mailOptions = {
+      from: email,
+      to: "royyrounak10@gmail.com", // Your recipient email
+      subject: subject,
+      text: message,
+    };
+
+    const info = await transporter.sendMail(mailOptions);
+    console.log("Email sent: ", info.response);
+
+    return NextResponse.json({ success: true, message: "Email sent successfully!" });
+  } catch (error) {
+    console.error("Error sending email:", error);
+    return NextResponse.json({ success: false, message: "Error sending email" }, { status: 500 });
+  }
+}
