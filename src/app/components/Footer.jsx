@@ -13,10 +13,10 @@ const Footer = () => {
         <p className="text-slate-600">All rights reserved.</p>
       </div>
       <div className="socials flex flex-row gap-2 justify-center items-center ">
-          <Link href="github.com">
+          <Link href="https://github.com/Rounak07Roy">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/rounak-roy-34789934b/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
