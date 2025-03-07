@@ -66,9 +66,9 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
+          <div className="rounded-full  w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
           <Image
-        src="https://i.ibb.co/nRbMp9w/Whats-App-Image-2023-12-09-at-07-21-47-477c1875.jpg"
+        src="https://i.ibb.co/3yQ8N0kD/Profile-removebg-preview.webp"
         alt="Your Image Alt Text"
         width={500}
         height={500}
